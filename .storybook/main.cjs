@@ -17,7 +17,7 @@ module.exports = {
   },
   viteFinal: (config, { configType }) => {
     if (configType === 'PRODUCTION') {  
-      config.base = '/react-lab-ds'
+      config.base = '/react-lab-ds/'
     }
 
     return config
